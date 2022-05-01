@@ -18,7 +18,7 @@ public class MainManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(this);
 
-        LoadColor();
+        LoadColor();    
     }
 
     [System.Serializable]
